@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\iseq">
+      <UniqueIdentifier>{79df7139-0a7a-4a2e-bc1e-2fb3c980f485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\nextop">
+      <UniqueIdentifier>{e0ca80c6-4876-4c26-b0df-ea60ff50a968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\nextop\problem">
+      <UniqueIdentifier>{f783513c-0d8d-46e8-a5bd-520595f76c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\baekjoon">
+      <UniqueIdentifier>{17ac9486-43f5-43ed-a1ea-56ba2ed1babc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\baekjoon\step_7">
+      <UniqueIdentifier>{a3039cee-293f-4b1b-9b60-a42db3cb5a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\baekjoon\step_10">
+      <UniqueIdentifier>{707aa8b5-51d4-42b0-a518-877ecb62f80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\iseq\1~10">
+      <UniqueIdentifier>{11812403-44f6-466c-be32-62ec45e2421f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\iseq\11~20">
+      <UniqueIdentifier>{09241e81-5a9a-4cad-9406-5c7a52259133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\iseq\21~30">
+      <UniqueIdentifier>{db7dab75-6c6d-4a32-9485-022d77acaa9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\iseq\31~40">
+      <UniqueIdentifier>{25f3910a-22a7-4c1d-b601-db9079ecf702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\iseq\41~50">
+      <UniqueIdentifier>{8d85cce3-e465-48d8-882d-c730242e5621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\iseq\51~60">
+      <UniqueIdentifier>{3b78692c-331e-4e5d-b3c1-b90b2d58e16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c 언어 콘서트">
+      <UniqueIdentifier>{3edc0de8-ecd4-41b6-a158-6275246ca555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\iseq_cyicle1">
+      <UniqueIdentifier>{845044a3-e2eb-49b4-9582-da1fd5bae3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\iseq_cyicle1\1~10">
+      <UniqueIdentifier>{bda1f914-5098-4a8b-b320-926a696eb05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\baek">
+      <UniqueIdentifier>{9bddeca8-8cab-45bb-aae2-f17cafc70918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\iseq">
+      <UniqueIdentifier>{f0688315-17ce-442f-b9dd-b035fd4288d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c 언어 콘서트\변수와 자료형">
+      <UniqueIdentifier>{3311b9d4-7781-44ba-be0a-7820dfff6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\language">
+      <UniqueIdentifier>{86b1a45c-b50b-4ec3-b633-47d02d342c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c 언어 콘서트\수식과 연산자">
+      <UniqueIdentifier>{77f927cb-8baa-49f4-b866-1d1571d293e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c 언어 콘서트\조건문">
+      <UniqueIdentifier>{f1c940b8-0a0c-47b8-806f-44d6c183aa76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\iseq_cyicle1\11~20">
+      <UniqueIdentifier>{d3528db6-df02-482c-b0f2-d797241ba459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\baekjoon\nextopp">
+      <UniqueIdentifier>{4be2aff1-7142-4643-a5ab-5f3671a4f833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\baekjoon\nextopp\E3">
+      <UniqueIdentifier>{26965c92-5de7-467d-a266-6f2cb8202e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\baekjoon\step_6">
+      <UniqueIdentifier>{6105c8b9-00c9-4187-ad38-8ec9586ffe9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\baekjoon\step_1">
+      <UniqueIdentifier>{8c16f662-6129-4321-8096-3025d13bc12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\baekjoon\step_11">
+      <UniqueIdentifier>{d21384ff-d1cd-4895-865a-1f43462148bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c 언어 콘서트\반복문">
+      <UniqueIdentifier>{d2dc8a97-e2cc-4dab-959e-1dfe16a73912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\baekjoon\nextopp\E2">
+      <UniqueIdentifier>{8f20a376-49f2-4d6d-a5a1-88bba3ebf71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c 언어 콘서트\배열">
+      <UniqueIdentifier>{ea722040-53b0-4ff7-b947-92987bd382eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c 언어 콘서트\함수">
+      <UniqueIdentifier>{2582d0df-78ec-4cb3-bafa-c1c2c7ae616b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c 언어 콘서트\포인터">
+      <UniqueIdentifier>{42b2dc3f-dc3e-4f17-9dee-47529d6f565c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\baekjoon\문제">
+      <UniqueIdentifier>{2a25eee3-c801-454d-a96c-65a95399d0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++은 처음이지">
+      <UniqueIdentifier>{c4ef956c-aae8-492f-ad27-9c937cbf58dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nextop\001_clock.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\002_bubble_sort.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\003_select_sort.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\004_insert_sort.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\005_shell_sort.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\006_stack.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\problem\01_car_stack.cpp">
+      <Filter>소스 파일\nextop\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\problem\02_razer.cpp">
+      <Filter>소스 파일\nextop\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\problem\03_pairs.cpp">
+      <Filter>소스 파일\nextop\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\problem\04_queue_water_wavelength.cpp">
+      <Filter>소스 파일\nextop\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\007_queue.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\problem\05_maze_bfs.cpp">
+      <Filter>소스 파일\nextop\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\008_bfs.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\problem\07_wave_bfs.cpp">
+      <Filter>소스 파일\nextop\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\problem\06_philippin_bfs.cpp">
+      <Filter>소스 파일\nextop\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\1~10\1.cpp">
+      <Filter>소스 파일\iseq\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\1~10\2.cpp">
+      <Filter>소스 파일\iseq\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\1~10\3.cpp">
+      <Filter>소스 파일\iseq\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\1~10\4.cpp">
+      <Filter>소스 파일\iseq\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\1~10\5.cpp">
+      <Filter>소스 파일\iseq\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\1~10\6.cpp">
+      <Filter>소스 파일\iseq\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\1~10\7.cpp">
+      <Filter>소스 파일\iseq\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\1~10\8.cpp">
+      <Filter>소스 파일\iseq\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\1~10\9.cpp">
+      <Filter>소스 파일\iseq\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\1~10\10.cpp">
+      <Filter>소스 파일\iseq\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\11~20\11.cpp">
+      <Filter>소스 파일\iseq\11~20</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\11~20\12.cpp">
+      <Filter>소스 파일\iseq\11~20</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\11~20\13.cpp">
+      <Filter>소스 파일\iseq\11~20</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\11~20\14.cpp">
+      <Filter>소스 파일\iseq\11~20</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\11~20\15.cpp">
+      <Filter>소스 파일\iseq\11~20</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\11~20\16.cpp">
+      <Filter>소스 파일\iseq\11~20</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\11~20\17.cpp">
+      <Filter>소스 파일\iseq\11~20</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\11~20\18.cpp">
+      <Filter>소스 파일\iseq\11~20</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\11~20\19.cpp">
+      <Filter>소스 파일\iseq\11~20</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\11~20\20.cpp">
+      <Filter>소스 파일\iseq\11~20</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\21~30\21.cpp">
+      <Filter>소스 파일\iseq\21~30</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\21~30\22.cpp">
+      <Filter>소스 파일\iseq\21~30</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\21~30\23.cpp">
+      <Filter>소스 파일\iseq\21~30</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\21~30\24.cpp">
+      <Filter>소스 파일\iseq\21~30</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\21~30\25.cpp">
+      <Filter>소스 파일\iseq\21~30</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\21~30\26.cpp">
+      <Filter>소스 파일\iseq\21~30</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\21~30\27.cpp">
+      <Filter>소스 파일\iseq\21~30</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\21~30\28.cpp">
+      <Filter>소스 파일\iseq\21~30</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\21~30\29.cpp">
+      <Filter>소스 파일\iseq\21~30</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\21~30\30.cpp">
+      <Filter>소스 파일\iseq\21~30</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\009_recursion.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\010_binuy_dfs.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\011_fornuy_dfs.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\problem\08_Quine_dfs.cpp">
+      <Filter>소스 파일\nextop\problem</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\012_Graph._LinkedList.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\013_dfs_graph_nagivation.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop\014_Prim.cpp">
+      <Filter>소스 파일\nextop</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step10\s10_2.cpp">
+      <Filter>소스 파일\baekjoon\step_10</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step10\s10_3.cpp">
+      <Filter>소스 파일\baekjoon\step_10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\31~40\31.cpp">
+      <Filter>소스 파일\iseq\31~40</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\31~40\32.cpp">
+      <Filter>소스 파일\iseq\31~40</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\31~40\33.cpp">
+      <Filter>소스 파일\iseq\31~40</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\31~40\34.cpp">
+      <Filter>소스 파일\iseq\31~40</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\31~40\35.cpp">
+      <Filter>소스 파일\iseq\31~40</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\31~40\36.cpp">
+      <Filter>소스 파일\iseq\31~40</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\31~40\37.cpp">
+      <Filter>소스 파일\iseq\31~40</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\31~40\38.cpp">
+      <Filter>소스 파일\iseq\31~40</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\31~40\39.cpp">
+      <Filter>소스 파일\iseq\31~40</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\31~40\40.cpp">
+      <Filter>소스 파일\iseq\31~40</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\41~50\41.cpp">
+      <Filter>소스 파일\iseq\41~50</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\41~50\42.cpp">
+      <Filter>소스 파일\iseq\41~50</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\41~50\43.cpp">
+      <Filter>소스 파일\iseq\41~50</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\41~50\44.cpp">
+      <Filter>소스 파일\iseq\41~50</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\41~50\45.cpp">
+      <Filter>소스 파일\iseq\41~50</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\41~50\46.cpp">
+      <Filter>소스 파일\iseq\41~50</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\41~50\47.cpp">
+      <Filter>소스 파일\iseq\41~50</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\41~50\48.cpp">
+      <Filter>소스 파일\iseq\41~50</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\41~50\49.cpp">
+      <Filter>소스 파일\iseq\41~50</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\41~50\50.cpp">
+      <Filter>소스 파일\iseq\41~50</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\51.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\52.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\53.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\54.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\55.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\55_2.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\56.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\57.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\58.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\59.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq\51~60\60.cpp">
+      <Filter>소스 파일\iseq\51~60</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq_cycle\1~10\c1_1.cpp">
+      <Filter>소스 파일\iseq_cyicle1\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq_cycle\1~10\c1_2.cpp">
+      <Filter>소스 파일\iseq_cyicle1\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq_cycle\1~10\c1_3.cpp">
+      <Filter>소스 파일\iseq_cyicle1\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq_cycle\1~10\c1_4.cpp">
+      <Filter>소스 파일\iseq_cyicle1\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq_cycle\1~10\c1_5.cpp">
+      <Filter>소스 파일\iseq_cyicle1\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq_cycle\1~10\c1_6.cpp">
+      <Filter>소스 파일\iseq_cyicle1\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq_cycle\1~10\c1_7.cpp">
+      <Filter>소스 파일\iseq_cyicle1\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq_cycle\1~10\c1_8.cpp">
+      <Filter>소스 파일\iseq_cyicle1\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\부동소수점.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\다항식.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\면적.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 7.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 9.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 코딩 2.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 코딩 3.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 코딩 4.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 코딩 5.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 코딩 6.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 코딩 7.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 코딩 8.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 코딩 9.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 코딩 10.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3장 코딩 11.cpp">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자.txt">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\4장\4장 코딩 1.cpp">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\4장\4장 코딩 2번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\4장\4장 코딩 3번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\4장\4장 코딩 4.cpp">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\4장\4장 코딩 5.cpp">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\4장\4장 코딩 6.cpp">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\4장\4장 코딩 7.cpp">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\4장\4장 코딩 8.cpp">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\4장\4장 코딩 9.cpp">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\4장\4장 코딩 10.cpp">
+      <Filter>소스 파일\c 언어 콘서트\수식과 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq_cycle\1~10\c1_9.cpp">
+      <Filter>소스 파일\iseq_cyicle1\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="iseq_cycle\1~10\c1_10.cpp">
+      <Filter>소스 파일\iseq_cyicle1\1~10</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\짝수 홀수 예제.cpp">
+      <Filter>소스 파일\c 언어 콘서트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e3\쇠막대기.cpp">
+      <Filter>소스 파일\baekjoon\nextopp\E3</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e3\개미.cpp">
+      <Filter>소스 파일\baekjoon\nextopp\E3</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\동전 던지기.cpp">
+      <Filter>소스 파일\c 언어 콘서트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\3장\3숫자 가장 큰수.cpp">
+      <Filter>소스 파일\c 언어 콘서트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\근의 공식.cpp">
+      <Filter>소스 파일\c 언어 콘서트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step6\킹, 퀸, 룩, 비숍, 나이트, 폰.cpp">
+      <Filter>소스 파일\baekjoon\step_6</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step1\사칙연산.cpp">
+      <Filter>소스 파일\baekjoon\step_1</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step1\물음표물음표느낌표.cpp">
+      <Filter>소스 파일\baekjoon\step_1</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step1\1998년생인 내가 태국에서는 2541년생.cpp">
+      <Filter>소스 파일\baekjoon\step_1</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step1\나머지.cpp">
+      <Filter>소스 파일\baekjoon\step_1</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step1\곱셈.cpp">
+      <Filter>소스 파일\baekjoon\step_1</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step1\꼬마 정민.cpp">
+      <Filter>소스 파일\baekjoon\step_1</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\가위바위보.cpp">
+      <Filter>소스 파일\c 언어 콘서트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\5장\5장 코딩 3번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\5장\5장 코딩 4.cpp">
+      <Filter>소스 파일\c 언어 콘서트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\5장\5장 코딩 5.cpp">
+      <Filter>소스 파일\c 언어 콘서트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\5장\5장 코딩 6.cpp">
+      <Filter>소스 파일\c 언어 콘서트\조건문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\디지털 시계.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\숫자 맞추기.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\자리수.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\복리의 무서움.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\약수구하기.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\최대 공약수.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\조화 수열 계산.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\소수.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\nim.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e2\색종이.cpp">
+      <Filter>소스 파일\baekjoon\nextopp\E2</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 1.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 2.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 3.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 4.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 5.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 6.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 7.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\7장\7장 코딩 1.cpp">
+      <Filter>소스 파일\c 언어 콘서트\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\포인터 사이즈.cpp">
+      <Filter>소스 파일\c 언어 콘서트\포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\피보나치 수열.cpp">
+      <Filter>소스 파일\c 언어 콘서트\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\8장 코딩 4번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\8장 코딩 5.cpp">
+      <Filter>소스 파일\c 언어 콘서트\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\8장 코딩 6번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\8장 코딩 7번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\8장 코딩 8번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\8장 코딩 13번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\8장 코딩 14번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\같은 값의 포인터.cpp">
+      <Filter>소스 파일\c 언어 콘서트\포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\Problem\어드벤처 게임.cpp">
+      <Filter>소스 파일\c 언어 콘서트\포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\Problem\어려운 하노이 탑.cpp">
+      <Filter>소스 파일\baekjoon\문제</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 8번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 9.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 10.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 13번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 14번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 16번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 17번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\6장\6장 코딩 19번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\7장\7장 코딩 7번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\7장\7장 코딩 8번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\7장\7장 코딩 12번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\8장 코딩 1번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\8장 코딩 2번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="c language\8장\8장 코딩 3번.cpp">
+      <Filter>소스 파일\c 언어 콘서트\포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ language\1장\1장 코딩 1번.cpp">
+      <Filter>소스 파일\c++은 처음이지</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ language\1장\1장 코딩 5번.cpp">
+      <Filter>소스 파일\c++은 처음이지</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step2\두수비교하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step2\시험 성적.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step2\윤년.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step2\오븐 시계.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step2\주사위 세개.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step3\영수증.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step3\코딩은 체육과목입니다.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ language\2장\2장 비밀 코드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ language\2장\자음과 모음 개수 세기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ language\2장\숫자 맞추기 게임.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="output.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="baek_input.txt">
+      <Filter>리소스 파일\baek</Filter>
+    </Text>
+    <Text Include="iseq_input.txt">
+      <Filter>리소스 파일\iseq</Filter>
+    </Text>
+    <Text Include="input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="c.txt">
+      <Filter>리소스 파일\language</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="자료형.txt">
+      <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
+    </None>
+  </ItemGroup>
+</Project>
