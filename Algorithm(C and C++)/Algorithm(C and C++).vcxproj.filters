@@ -702,6 +702,12 @@
     <ClCompile Include="c++ language\2장\숫자 맞추기 게임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="c++ language\2장\배열 초기화.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ language\2장\배열의 최대값.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">

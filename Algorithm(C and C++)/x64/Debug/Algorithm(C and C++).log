@@ -1,3 +1,3 @@
-﻿  숫자 맞추기 게임.cpp
-D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\c++ language\2장\숫자 맞추기 게임.cpp(9,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm(C and C++)\x64\Debug\Algorithm(C and C++).exe
+﻿  배열의 최대값.cpp
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\c++ language\2장\배열의 최대값.cpp(8,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+LINK : fatal error LNK1201: 'D:\WorkList\Algorithm\Algorithm(C and C++)\x64\Debug\Algorithm(C and C++).pdb' 프로그램 데이터베이스를 쓰는 동안 오류가 발생했습니다. 디스크 공간이 부족한지, 경로가 잘못되었는지 또는 권한이 없는지 확인하십시오.
