@@ -1,7 +1,7 @@
-﻿  배열의 최대값.cpp
-D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\c++ language\2장\배열의 최대값.cpp(8,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  2장 코딩 13번.cpp
   코드를 생성하고 있습니다.
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 2 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  9 of 10 functions (90.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
   Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm(C and C++)\x64\Release\Algorithm(C and C++).exe
