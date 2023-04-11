@@ -780,6 +780,21 @@
     <ClCompile Include="c++ language\map.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="c++ language\4장 클래스\사각형 클래스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ language\4장 클래스\원객체 화면.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ language\4장 클래스\4장 코딩 1번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ language\4장 클래스\4장 코딩 2번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="c++ language\4장 클래스\4장 코딩 12번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
