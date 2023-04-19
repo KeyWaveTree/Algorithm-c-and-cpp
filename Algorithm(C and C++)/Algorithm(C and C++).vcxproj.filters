@@ -714,6 +714,18 @@
     <ClCompile Include="c++ language\vector.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="c++ language\6장\성적 평균 계산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HUFS\c\array.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HUFS\c\pointer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HUFS\c\동적할당.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
