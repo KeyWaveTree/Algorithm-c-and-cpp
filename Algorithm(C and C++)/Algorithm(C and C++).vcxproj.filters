@@ -711,7 +711,7 @@
     <ClCompile Include="baekjoon\step12\영화감독 숍.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="c++ language\vector.cpp">
+    <ClCompile Include="c++ language\8장\vector.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="c++ language\6장\성적 평균 계산.cpp">
@@ -724,6 +724,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="HUFS\c\동적할당.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HUFS\data struct\linked list.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HUFS\c\최대값 재귀.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HUFS\data struct\queue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HUFS\data struct\stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
