@@ -744,6 +744,12 @@
     <ClCompile Include="c++ language\13장\파일 쓰기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="baekjoon\step13\좌표정렬하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step13\좌표정렬하기2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
@@ -762,6 +768,7 @@
       <Filter>리소스 파일\language</Filter>
     </Text>
     <Text Include="cpp.txt" />
+    <Text Include="c++ language\15장\STL.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="자료형.txt">
