@@ -1,7 +1,6 @@
-﻿  도형.cpp
+﻿  나이순 정렬.cpp
   코드를 생성하고 있습니다.
-  18 of 18 functions (100.0%) were compiled.
-    17 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 214 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   코드를 생성했습니다.
   Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm(C and C++)\x64\Release\Algorithm(C and C++).exe
