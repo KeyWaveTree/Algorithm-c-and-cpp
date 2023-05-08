@@ -1,6 +1,14 @@
-﻿  나이순 정렬.cpp
+﻿  좌표압축.cpp
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\baekjoon\step13\좌표압축.cpp(39,9): warning C4477: 'scanf' : 서식 문자열 '%ld'에 'long *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64 *'입니다.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\baekjoon\step13\좌표압축.cpp(39,9): message : 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\baekjoon\step13\좌표압축.cpp(39,9): message : 서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\baekjoon\step13\좌표압축.cpp(39,9): message : 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\baekjoon\step13\좌표압축.cpp(33,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\baekjoon\step13\좌표압축.cpp(39,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\baekjoon\step13\좌표압축.cpp(30,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
   코드를 생성하고 있습니다.
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 214 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  106 of 106 functions (100.0%) were compiled.
+    22 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
   Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm(C and C++)\x64\Release\Algorithm(C and C++).exe
