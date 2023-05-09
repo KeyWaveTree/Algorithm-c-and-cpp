@@ -19,7 +19,7 @@ int main()
 
 
     sort(v.begin(), v.end());
-    v.erase(unique(v.begin(), v.end()), v.end());
+    v.erase(unique(v.begin(), v.end()), v.end()); //중복제거
 
     for (int i = 0; i < N; i++) {
         printf("%d ", lower_bound(v.begin(), v.end(), back[i]) - v.begin());
@@ -89,4 +89,3 @@ int main()
 //	}
 //
 //	return 0;
-}
