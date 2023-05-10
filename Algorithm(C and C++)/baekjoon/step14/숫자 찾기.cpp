@@ -18,5 +18,11 @@ int main()
 	}
 
 	scanf("%d", &m);
-	for()
+	for (j = 0; j < m; j++)
+	{
+		scanf("%d", &card);
+		printf("%d ", cards.count(card));
+	}
+
+	return 0;
 }
