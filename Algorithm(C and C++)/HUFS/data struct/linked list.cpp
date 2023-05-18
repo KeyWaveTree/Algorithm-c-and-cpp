@@ -63,7 +63,7 @@ struct LINKED_LIST
 
 void initList()
 {
-    linked_list = (node*)malloc(sizeof(node));
+    linked_list = (LINKED_LIST*)malloc(sizeof(LINKED_LIST));
     linked_list->head = NULL;
     linked_list->len = 0;
 }
