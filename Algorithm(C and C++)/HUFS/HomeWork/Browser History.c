@@ -17,44 +17,72 @@ typedef struct {
 } BrowserHistory;
 // DO NOT MODIFY //
 
-//head - 페이지 값 줄때 
-//cursor - 다음위치 페이지
-
+//head - 페이지 값 줄때  - head
+//cursor - 다음위치 페이지 -tail
 
 //스타트 주소 
 BrowserHistory* browserHistoryCreate(char* homepage) {
+   
+    BrowserHistory* browser = (BrowserHistory*)malloc(sizeof(BrowserHistory)); //브라우저 해드 노드 
+    struct Node* nodePage = (struct Node*)malloc(sizeof(struct Node)); //임의 페이지 노드 
+    
+    //nodePage 구성
+    strcpy(nodePage->url, homepage);
 
-    BrowserHistory* browser = NULL;
-    BrowserHistory* nodePage = NULL; //임의 노드 
+    //기본 브라우저 head는 기본적 head로 취급 하자  
+    browser->head = nodePage;   //브라우저의 head는 nodePage 연결
+    browser->cursor = nodePage; //브라우저의 커서 nodePage와 연결
 
-    //head는 현재 저장된 페이지 주소로 - brower 저장
-    browser->head = homepage;
-    *browser->head->url = *homepage;
-
-    //curser 노드 연결
-    browser->cursor->next = nodePage; //임의의 url 노드 추가 
-    nodePage->cursor->prev = browser; //연결
+    //nodePage 방향 설정
+    nodePage->next = NULL;
+    nodePage->prev = NULL;
 
     return browser;
 }
 
 void browserHistoryVisit(BrowserHistory* obj, char* url){
-    BrowserHistory *newPage = NULL;
-  
-  /*  obj->cursor->next = newPage;
-    newPage->cursor->prev = obj;*/
+    struct Node* newPage = (struct Node*)malloc(sizeof(struct Node));
+    struct Node* del;
+    //cur에는 이미 homepage가 있음 그러니 homepage-> next
+
+    //url 복사해서 값 넣기
+    strcpy(newPage->url, url);
+
+    newPage->next = obj->cursor; //새로운 페이지는 기존에 있던 node 페이지 지정
+    obj->cursor->prev = newPage; // == newPage->next->prev= newPage;   
+    obj->cursor = newPage;  //커서가 가리키고 있는 값은 새로운 페이지 
+
+   /* del = newPage->prev;
+    newPage->prev->next = NULL;
+    
+    free(del);*/
 }
 
-char* browserHistoryBack(BrowserHistory* obj, int steps) {
+char* browserHistoryBack(BrowserHistory* obj, int steps)
+{
+    struct Node* cur = obj->cursor;
+    for (int i = 0; i < steps; i++)
+    {
+        cur = cur->next;
+    }
 
+    return cur->url;
 }
 
 char* browserHistoryForward(BrowserHistory* obj, int steps) {
+    struct Node* cur = obj->cursor;
+    for (int i = 0; i < steps; i++)
+    {
+        cur = cur->prev;
+    }
 
+    return cur->url;
 }
 
 void browserHistoryFree(BrowserHistory* obj) {
-
+    free(obj->head);
+    free(obj->cursor);
+    free(obj);
 }
 
 // DO NOT MODIFY //
