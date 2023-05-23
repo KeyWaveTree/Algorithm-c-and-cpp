@@ -18,8 +18,14 @@ typedef struct {
 // DO NOT MODIFY //
 
 //head - 페이지 값 줄때  - head
-//cursor - 다음위치 페이지 -tail
+//cursor - 다음위치 페이지 -tail 혹은 스텍의 top
+//
+/*
 
+BrowserHistory visit visit visit back back forward visit forward back back
+hufs.ac.kr google.com naver.com youtube.com 1 1 1 linkedin.com 2 2 7
+
+*/
 //스타트 주소 
 BrowserHistory* browserHistoryCreate(char* homepage) {
    
@@ -33,7 +39,7 @@ BrowserHistory* browserHistoryCreate(char* homepage) {
     browser->head = nodePage;   //브라우저의 head는 nodePage 연결
     browser->cursor = nodePage; //브라우저의 커서 nodePage와 연결
 
-    //nodePage 방향 설정
+    //nodePage 방향 설정 초기화 
     nodePage->next = NULL;
     nodePage->prev = NULL;
 
@@ -41,21 +47,28 @@ BrowserHistory* browserHistoryCreate(char* homepage) {
 }
 
 void browserHistoryVisit(BrowserHistory* obj, char* url){
-    struct Node* newPage = (struct Node*)malloc(sizeof(struct Node));
+    BrowserHistory* newPage = browserHistoryCreate(url);
     struct Node* del;
     //cur에는 이미 homepage가 있음 그러니 homepage-> next
 
-    //url 복사해서 값 넣기
-    strcpy(newPage->url, url);
+   //다음 위치가 페이지가 있다면 지워줄 기록 넣기 
+    if (obj->cursor->next != NULL && obj->cursor->next!=obj->cursor)
+    {
+        del = obj->cursor->next; //페이지 저장
+        del->prev = NULL;   // 페이지 링크 제거
+        obj->cursor->next = NULL;
+        free(del);
+    }
 
-    newPage->next = obj->cursor; //새로운 페이지는 기존에 있던 node 페이지 지정
-    obj->cursor->prev = newPage; // == newPage->next->prev= newPage;   
-    obj->cursor = newPage;  //커서가 가리키고 있는 값은 새로운 페이지 
+    // 맨 앞에 페이지는 자신과 연결
+    obj->head->prev = obj->head;
 
-   /* del = newPage->prev;
-    newPage->prev->next = NULL;
-    
-    free(del);*/
+    //먼저 맨 앞에다 new 페이지넣고 히스토리가 저장되어있는 페이지 연결
+    newPage->cursor->prev =obj->cursor; //새로운 페이지는 기존에 있던 node 페이지들 지정
+    newPage->cursor->next = newPage->cursor; //newPage의 다음은 null 이므로 초기화 라고 생각했으나 자신을 지정해야 함
+    obj->cursor->next = newPage->cursor;  // == newPage->next->prev= newPage;
+    obj->cursor = newPage->cursor;  //커서가 가리키고 있는 값은 새로운 페이지
+    //obj->cursor->next = newPage->cursor;
 }
 
 char* browserHistoryBack(BrowserHistory* obj, int steps)
@@ -63,9 +76,9 @@ char* browserHistoryBack(BrowserHistory* obj, int steps)
     struct Node* cur = obj->cursor;
     for (int i = 0; i < steps; i++)
     {
-        cur = cur->next;
+        cur = cur->prev;
     }
-
+    obj->cursor = cur;
     return cur->url;
 }
 
@@ -73,16 +86,16 @@ char* browserHistoryForward(BrowserHistory* obj, int steps) {
     struct Node* cur = obj->cursor;
     for (int i = 0; i < steps; i++)
     {
-        cur = cur->prev;
+        cur = cur->next;
     }
-
+    obj->cursor = cur;
     return cur->url;
 }
 
-void browserHistoryFree(BrowserHistory* obj) {
-    free(obj->head);
-    free(obj->cursor);
+void browserHistoryFree(BrowserHistory* obj) 
+{
     free(obj);
+
 }
 
 // DO NOT MODIFY //
