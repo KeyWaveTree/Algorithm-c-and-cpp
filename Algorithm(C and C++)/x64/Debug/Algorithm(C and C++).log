@@ -1,3 +1,4 @@
-﻿  Browser History.cpp
-D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\HUFS\HomeWork\Browser History.cpp(111,10): warning C4101: 'output' :참조되지 않은 지역 변수입니다.
+﻿  최댓값.cpp
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\baekjoon\e1\최댓값.cpp(7,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\baekjoon\e1\최댓값.cpp(8,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm(C and C++)\x64\Debug\Algorithm(C and C++).exe
