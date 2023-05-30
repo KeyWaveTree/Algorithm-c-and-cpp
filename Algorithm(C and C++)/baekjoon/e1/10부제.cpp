@@ -12,7 +12,7 @@ int main()
 	int cnt = 0;
 
 	scanf("%d", &n);
-	for(int i=0;i<n;i++)
+	for(int i=0;i<5;i++)
 	{
 		scanf("%d", &car);
 		if (car == n)cnt++;

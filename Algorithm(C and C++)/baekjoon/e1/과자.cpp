@@ -11,5 +11,12 @@ int main()
 
 	cin >> p >> n >> won;
 
-	printf("%d", (p * n) % won);
+    if ((p * n) - won >= 0)
+    {
+        printf("%d", (p * n) - won);
+    }
+    else
+    {
+        printf("0");
+    }
 }

@@ -8,7 +8,7 @@ int main()
 	freopen("output.txt", "w", stdout);
 	int a, b, c, d, e;
 	int sum;
-	scanf("%1d %1d %1d %1d %1d", &a, &b, &c, &d, &e);
+	scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
 	
 	sum=(a* a) + (b * b) + (c * c) + (d * d) + (e * e);
 

@@ -14,8 +14,8 @@ int main()
 
 	for (int i = 0; i < 4; i++)
 	{
-		cin >> in;
 		cin >> out;
+		cin >> in;
 
 		sum = sum - out + in;
 		if (sum > max)max = sum;

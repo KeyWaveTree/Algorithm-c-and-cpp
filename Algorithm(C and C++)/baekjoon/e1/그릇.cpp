@@ -12,17 +12,12 @@ int main()
 	string boul;
 
 	cin >> boul;
-	check = boul[0];
+	
 	for (int i = 1; i < boul.length(); i++)
 	{
-		if (boul[i] == check) cnt += 5;
-		else
-		{
-			cnt += 10;
-			check = boul[i];
-		}
+		if (boul[i - 1] == boul[i])cnt += 5;
+		else cnt += 10;
 	}
-
 	cout << cnt;
 	return 0;
 }
