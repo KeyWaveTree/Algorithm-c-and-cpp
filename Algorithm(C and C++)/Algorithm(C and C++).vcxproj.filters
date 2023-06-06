@@ -813,6 +813,9 @@
     <ClCompile Include="baekjoon\e1\백설공주와 난장이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="nextop_problem\stack\주차장.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
@@ -832,6 +835,7 @@
     </Text>
     <Text Include="cpp.txt" />
     <Text Include="c++ language\15장\STL.txt" />
+    <Text Include="nextop-problem.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="자료형.txt">
