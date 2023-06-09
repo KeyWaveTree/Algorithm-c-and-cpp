@@ -41,7 +41,7 @@ void E(int h, int w)
 			rear += 1;
 			Q[rear].h = h - 1;
 			Q[rear].w = w;
-		}
+	}
 		if (A[h][w + 1] == 1 && check[h][w + 1] == 0) {
 			check[h][w + 1] = cnt;
 			rear += 1;

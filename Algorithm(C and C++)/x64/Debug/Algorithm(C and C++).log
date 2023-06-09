@@ -1,2 +1,8 @@
-﻿  지능형 기차.cpp
+﻿  Mine Sweeper.c
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\HUFS\HomeWork\Mine Sweeper.c(85,17): warning C4047: '함수': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\HUFS\HomeWork\Mine Sweeper.c(85,15): warning C4024: 'bfs': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\HUFS\HomeWork\Mine Sweeper.c(85,21): warning C4047: '함수': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\HUFS\HomeWork\Mine Sweeper.c(85,19): warning C4024: 'bfs': 형식 및 실제 매개 변수 4의 형식이 서로 다릅니다.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\HUFS\HomeWork\Mine Sweeper.c(100,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\WorkList\Algorithm\Algorithm(C and C++)\Algorithm(C and C++)\HUFS\HomeWork\Mine Sweeper.c(103,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm(C and C++)\x64\Debug\Algorithm(C and C++).exe

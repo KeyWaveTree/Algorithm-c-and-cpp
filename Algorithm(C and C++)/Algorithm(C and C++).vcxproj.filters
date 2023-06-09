@@ -816,6 +816,12 @@
     <ClCompile Include="nextop_problem\stack\주차장.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="HUFS\HomeWork\Mine Sweeper.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_problem\bfs\bfs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
