@@ -1,20 +1,29 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
-#define N 10
+#define N 100
 
 using namespace std;
 
 int arr[N][N];
 int r[N][N]; //출력노드
 bool cheak[N]; //현재 컴퓨터가 간 노드들 체크 why? 무한반복걸리는 사이클 방지 false 아직 안감, true 갔음
-int n=10; // 총 노드 개수
+int n; // 총 노드 개수
+int k;
 
 void input()
 {
-
+	int i, j;
+	int s, e, v;
+	scanf("%d%d", &n, &k);
+	for (i = 1; i <= k; i++)
+	{
+		scanf("%d%d%d", &s, &e, &v);
+		arr[s][e] = v;
+		arr[e][s] = v;
+	}
 }
 
-void prim()
+void run()
 {
 	int i, chk, s, e;
 	int min;
@@ -50,11 +59,21 @@ void prim()
 
 void print()
 {
-
+	int s = 0;
+	int i, j;
+	for (i = 1; i <= n; i++)
+	{
+		for (j = 1; j <= n; j++)
+		{
+			s += r[i][j];
+			printf("%3d", r[i][j]);
+		}
+	}
+	printf("%d", s / 2);
 }
-
-
 int main()
 {
 	input();
+	run();
+	print();
 }

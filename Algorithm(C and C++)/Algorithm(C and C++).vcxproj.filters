@@ -834,6 +834,81 @@
     <ClCompile Include="baekjoon\e2\줄 세우기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="baekjoon\step18\약수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step18\인사성 밝은 곰돌이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step18\붙임성 좋은 총총이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\01_stack.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\02_postfix.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\03_stack_maze.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\04_stack_maze.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\05_queen.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\06_queue_water.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\07_water.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\08_DFS.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\09_BFS.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\10_queue_bfs.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_cycle\11_위상정렬.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e3\공주님 정원.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_problem\LIS\upper_bound.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e3\보석.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e3\바이러스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e3\참외밭.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e3\경비원.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e3\기마병 배치.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e3\숫자야구.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e3\빙고.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\m2\고기잡이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\m2\회전초밥.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
