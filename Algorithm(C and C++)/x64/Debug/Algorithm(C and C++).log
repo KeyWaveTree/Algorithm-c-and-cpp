@@ -1,7 +1,7 @@
-﻿  고기잡이.cpp
-D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\고기잡이.cpp(9,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'point' 왼쪽은 무시됩니다.
-D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\고기잡이.cpp(15,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\고기잡이.cpp(16,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\고기잡이.cpp(25,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\고기잡이.cpp(28,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  금강석.cpp
+D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\금강석.cpp(9,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'point' 왼쪽은 무시됩니다.
+D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\금강석.cpp(47,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\금강석.cpp(48,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\금강석.cpp(53,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\금강석.cpp(57,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm-c-and-cpp\x64\Debug\Algorithm(C and C++).exe

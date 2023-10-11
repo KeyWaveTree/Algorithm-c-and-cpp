@@ -909,6 +909,15 @@
     <ClCompile Include="baekjoon\m2\회전초밥.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="baekjoon\e3\토마토_쉬움.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\step37\최소 스패닝 트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\m2\금강석.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
@@ -934,5 +943,6 @@
     <None Include="자료형.txt">
       <Filter>소스 파일\c 언어 콘서트\변수와 자료형</Filter>
     </None>
+    <None Include=".gitigore" />
   </ItemGroup>
 </Project>
