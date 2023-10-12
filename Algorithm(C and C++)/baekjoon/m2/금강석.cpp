@@ -88,7 +88,7 @@ int main()
 	//만약 포인트가 공간안에 없다면 다시 재배치 
 
 	//회전 행렬 -> 다시 원상 복구 /2 짝수 좌표를 위해서 
-	printf("%d %d\n%d", (x+y)/2, (x-y)/2, ans);
+	printf("%d %d\n%d", (max_x+max_y)/2, (max_y-max_x)/2, ans);
 
 	return 0;
-}
+}	

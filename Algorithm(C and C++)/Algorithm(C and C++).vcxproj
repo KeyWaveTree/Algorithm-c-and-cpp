@@ -227,7 +227,10 @@
     <ClCompile Include="baekjoon\m2\고기잡이.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="baekjoon\m2\금강석.cpp" />
+    <ClCompile Include="baekjoon\m2\괄호의 값.cpp" />
+    <ClCompile Include="baekjoon\m2\금강석.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="baekjoon\m2\회전초밥.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
