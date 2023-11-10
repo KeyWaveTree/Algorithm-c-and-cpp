@@ -2,7 +2,7 @@
 #include <stdio.h>
 #define SWAP(a,b,t) ((t=a),(a=b),(b=t))
 
-int A[20], n, check[20] = { 0 };
+int A[1001], n, check[1001] = { 0 };
 void input() {
 	scanf("%d", &n);
 	for (int i = 1; i <= n; i++) {
