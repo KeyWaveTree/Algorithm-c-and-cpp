@@ -4,6 +4,7 @@ using namespace std;
 
 int dp[41];
 int re_cnt = 0;
+
 int fibonacci(int n)
 {
 	if (n == 1 || n == 2)
