@@ -273,10 +273,10 @@
     <ClCompile Include="nextop\014_Prim.cpp">
       <Filter>소스 파일\nextop</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step10\s10_2.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step10\s10_2.cpp">
       <Filter>소스 파일\baekjoon\step_10</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step10\s10_3.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step10\s10_3.cpp">
       <Filter>소스 파일\baekjoon\step_10</Filter>
     </ClCompile>
     <ClCompile Include="iseq\31~40\31.cpp">
@@ -498,25 +498,25 @@
     <ClCompile Include="c language\Problem\근의 공식.cpp">
       <Filter>소스 파일\c 언어 콘서트\조건문</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step6\킹, 퀸, 룩, 비숍, 나이트, 폰.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step6\킹, 퀸, 룩, 비숍, 나이트, 폰.cpp">
       <Filter>소스 파일\baekjoon\step_6</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step1\사칙연산.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step1\사칙연산.cpp">
       <Filter>소스 파일\baekjoon\step_1</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step1\물음표물음표느낌표.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step1\물음표물음표느낌표.cpp">
       <Filter>소스 파일\baekjoon\step_1</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step1\1998년생인 내가 태국에서는 2541년생.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step1\1998년생인 내가 태국에서는 2541년생.cpp">
       <Filter>소스 파일\baekjoon\step_1</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step1\나머지.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step1\나머지.cpp">
       <Filter>소스 파일\baekjoon\step_1</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step1\곱셈.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step1\곱셈.cpp">
       <Filter>소스 파일\baekjoon\step_1</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step1\꼬마 정민.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step1\꼬마 정민.cpp">
       <Filter>소스 파일\baekjoon\step_1</Filter>
     </ClCompile>
     <ClCompile Include="c language\Problem\가위바위보.cpp">
@@ -666,49 +666,49 @@
     <ClCompile Include="c language\8장\8장 코딩 3번.cpp">
       <Filter>소스 파일\c 언어 콘서트\포인터</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step2\두수비교하기.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step2\두수비교하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step2\시험 성적.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step2\시험 성적.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step2\윤년.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step2\윤년.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step2\오븐 시계.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step2\오븐 시계.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step2\주사위 세개.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step2\주사위 세개.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step3\영수증.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step3\영수증.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step3\코딩은 체육과목입니다.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step3\코딩은 체육과목입니다.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step3\빠른 A+B.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step3\빠른 A+B.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="baekjoon\구간합 구하기 5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step12\수학은 비대면 강의.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step12\수학은 비대면 강의.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step12\체스판 다시 칠하기.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step12\체스판 다시 칠하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step13\수 정렬하기 3.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step13\수 정렬하기 3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step13\소트 인사이트.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step13\소트 인사이트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="baekjoon\소수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step12\영화감독 숍.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step12\영화감독 숍.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="c++ language\8장\vector.cpp">
@@ -744,25 +744,25 @@
     <ClCompile Include="c++ language\13장\파일 쓰기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step13\좌표정렬하기.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step13\좌표정렬하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step13\좌표정렬하기2.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step13\좌표정렬하기2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step13\단어 정렬.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step13\단어 정렬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step13\나이순 정렬.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step13\나이순 정렬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step13\좌표압축.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step13\좌표압축.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step14\숫자 찾기.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step14\숫자 찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step14\문자열 집합.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step14\문자열 집합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="baekjoon\e1\10부제.cpp">
@@ -804,7 +804,7 @@
     <ClCompile Include="baekjoon\e1\홀수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step17\녹색거탑.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step17\녹색거탑.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="baekjoon\e1\대표값2.cpp">
@@ -834,13 +834,13 @@
     <ClCompile Include="baekjoon\e2\줄 세우기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step18\약수.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step18\약수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step18\인사성 밝은 곰돌이.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step18\인사성 밝은 곰돌이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step18\붙임성 좋은 총총이.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step18\붙임성 좋은 총총이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="nextop_cycle\01_stack.c">
@@ -912,7 +912,7 @@
     <ClCompile Include="baekjoon\e3\토마토_쉬움.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step37\최소 스패닝 트리.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step37\최소 스패닝 트리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="baekjoon\m2\금강석.cpp">
@@ -936,25 +936,37 @@
     <ClCompile Include="baekjoon\m2\색종이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step16\제로.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step16\제로.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step16\괄호.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step16\괄호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step16\균형잡힌 세상.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step16\균형잡힌 세상.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step16\도키도키 간식 드리미.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step16\도키도키 간식 드리미.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step23\계단 오르기.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step23\계단 오르기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="baekjoon\m2\비슷한 단어.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\step23\피보나치 수.cpp">
+    <ClCompile Include="baekjoon\Step by Step\step23\피보나치 수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\Step by Step\step25\동전 0.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\Step by Step\step25\회의실 배정.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\Problem\트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e4\컬러볼.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

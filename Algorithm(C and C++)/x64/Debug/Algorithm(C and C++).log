@@ -1,6 +1,1 @@
-﻿  색종이.cpp
-D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\색종이.cpp(9,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\색종이.cpp(18,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\색종이.cpp(12,6): warning C4101: 'n' :참조되지 않은 지역 변수입니다.
-D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\m2\색종이.cpp(14,6): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
-  Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm-c-and-cpp\x64\Debug\Algorithm(C and C++).exe
+﻿  Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm-c-and-cpp\x64\Debug\Algorithm(C and C++).exe
