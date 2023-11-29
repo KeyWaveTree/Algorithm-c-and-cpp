@@ -975,6 +975,12 @@
     <ClCompile Include="baekjoon\Step by Step\step37\별자리 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="baekjoon\소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\e4\전기줄.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
