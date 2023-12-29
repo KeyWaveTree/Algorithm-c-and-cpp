@@ -30,6 +30,7 @@ int main()
 	freopen("input.txt", "r", stdin);
 	
 	int n;
+	int j = 0;
 	int all_sum = 0;
 	int color_cnt = 0;
 
@@ -45,8 +46,14 @@ int main()
 
 	for (int i = 1; i <= n; i++)
 	{
-		all_sum += arr[i].size;
-		check[arr[i].color] += arr[i].size;
+		//같은 값은 걸러주기 위해 작성됨 
+		//정렬이라서 뒤에 있는 값은 상관 x
+		while (arr[j].size < arr[i].size)
+		{
+			all_sum += arr[j].size;
+			check[arr[j].color] += arr[j].size;
+			j++;
+		}
 		arr[i].ans = all_sum - check[arr[i].color];
 	}
 

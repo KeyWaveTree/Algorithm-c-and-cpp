@@ -1,1 +1,6 @@
-﻿  Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm-c-and-cpp\x64\Debug\Algorithm(C and C++).exe
+﻿  줄 세우기.cpp
+D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\e4\줄 세우기.cpp(10,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\e4\줄 세우기.cpp(11,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\e4\줄 세우기.cpp(17,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\e4\줄 세우기.cpp(20,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm-c-and-cpp\x64\Debug\Algorithm(C and C++).exe
