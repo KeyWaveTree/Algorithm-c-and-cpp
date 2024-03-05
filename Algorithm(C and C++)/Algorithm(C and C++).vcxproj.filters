@@ -1029,7 +1029,7 @@
     <ClCompile Include="Susc_study\first_week-1\숫자판 점프.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\m3\369게임.cpp">
+    <ClCompile Include="baekjoon\m3\369게임%28못품%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Detailed competency specialties for high school students\2024\배영재\maze_data.txt">
@@ -1039,6 +1039,21 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Susc_study\second_week-1\홀짝 칵테일.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\m3\전기줄 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2024 FEB Bronze\Palindrome Game%28못품%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\m3\숫자 카드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_problem\black_and_white.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\m3\먹이사슬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
