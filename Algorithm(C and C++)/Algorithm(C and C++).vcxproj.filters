@@ -1053,10 +1053,13 @@
     <ClCompile Include="nextop_problem\black_and_white.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\m3\먹이사슬.cpp">
+    <ClCompile Include="baekjoon\m3\먹이사슬%28못품%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Susc_study\first_week-2\선물.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon\m3\대표선수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
