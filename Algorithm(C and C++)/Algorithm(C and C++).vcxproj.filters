@@ -1050,16 +1050,22 @@
     <ClCompile Include="baekjoon\m3\숫자 카드%28못품%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="nextop_problem\black_and_white.cpp">
+    <ClCompile Include="nextop_problem\경기과고\black_and_white.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\m3\먹이사슬%28못품%29.cpp">
+    <ClCompile Include="baekjoon\m3\먹이사슬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Susc_study\first_week-2\선물.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon\m3\대표선수.cpp">
+    <ClCompile Include="baekjoon\m3\대표선수%28못품%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_problem\경기과고\knight problem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="nextop_problem\경기과고\후위연산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
