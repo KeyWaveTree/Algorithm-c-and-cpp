@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//최대 경로
 typedef struct point
 {
 	int x;

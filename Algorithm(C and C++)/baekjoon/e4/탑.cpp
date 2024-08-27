@@ -7,7 +7,7 @@ typedef struct stick
 {
 	int len;
 	int index;
-};
+}stick;
 
 vector<stick> signal, stack;
 stick null;
@@ -62,6 +62,6 @@ int main()
 		}
 		push(empty);
 		printf("%d ", stack[top - 1].index);
-	}
+	
 
 }
