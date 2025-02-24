@@ -1,3 +1,0 @@
-﻿  최단경로.cpp
-D:\WorkList\Algorithm\Algorithm-c-and-cpp\Algorithm(C and C++)\baekjoon\Step by Step\step32\최단경로.cpp(15,2): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  Algorithm(C and C++).vcxproj -> D:\WorkList\Algorithm\Algorithm-c-and-cpp\x64\Debug\Algorithm(C and C++).exe
