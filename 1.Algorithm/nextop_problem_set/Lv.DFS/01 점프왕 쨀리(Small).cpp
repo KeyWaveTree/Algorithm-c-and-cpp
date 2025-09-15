@@ -1,5 +1,6 @@
 #include<iostream>
 
+//dfs 설명: 순차적으로
 using namespace std;
 
 int n; //게임 구역의 크기

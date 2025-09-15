@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<vector<int> > itemTable;
+vector<vector<int>> itemTable;
 int dpTable[500];
 
 int main() {
