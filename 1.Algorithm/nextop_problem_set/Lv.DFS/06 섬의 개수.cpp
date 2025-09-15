@@ -7,7 +7,7 @@ int vx[8] = {0, 1, 0, -1, 1, 1, -1, -1};
 int vy[8] = {1, 0, -1, 0, 1, -1, 1, -1};
 int w, h;
 
-vector<vector<bool> > map, check;
+vector<vector<bool>> map, check;
 
 void dfs(int x, int y) {
     int posx, posy;

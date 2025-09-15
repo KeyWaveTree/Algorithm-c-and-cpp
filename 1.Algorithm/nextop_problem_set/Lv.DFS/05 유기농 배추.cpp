@@ -4,7 +4,7 @@
 
 using namespace std;
 
-vector<vector<bool> > cabbageMap, check;
+vector<vector<bool>> cabbageMap, check;
 int vx[4] = {0, -1, 0, 1};
 int vy[4] = {-1, 0, 1, 0};
 

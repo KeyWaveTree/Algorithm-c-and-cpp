@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<vector<bool> > adjMatrix;//인접 행렬
+vector<vector<bool>> adjMatrix;//인접 행렬
 vector<bool> check; //컴퓨터 방문 기록판
 int vertex; //컴퓨터(노드)의 수 - 방문할 노드를 찾기 위해 전역 변수
 int edge; //네트워크(간선)의 수 -지역변수로 지정해도 괜찮음.

@@ -5,7 +5,7 @@ using namespace std;
 
 int node;
 vector<int> check;
-vector<vector<int> > adjacencyList;
+vector<vector<int>> adjacencyList;
 
 void dfs(int start) {
 

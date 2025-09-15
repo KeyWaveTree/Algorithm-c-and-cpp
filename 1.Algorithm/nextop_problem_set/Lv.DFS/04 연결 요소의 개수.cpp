@@ -13,7 +13,7 @@ using namespace std;
 
 int vertex, edge;
 vector<bool> check;
-vector<vector<bool> > adjacencyMatrix;
+vector<vector<bool>> adjacencyMatrix;
 
 void dfs(int start) {
     //만약 이미 start 정점을 방문했다면 함수 return
